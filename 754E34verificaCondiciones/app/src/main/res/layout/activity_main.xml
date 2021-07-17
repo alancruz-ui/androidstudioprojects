@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+
+    android:background="#489A6E"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/resultado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+
+        android:gravity="center"
+        />
+    <TextView
+        android:text="Escribe tu nombre"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#bdbdbd"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificar por Bonotes"
+        android:layout_marginTop="10dp"
+        android:background="#ffd54f"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:onClick="verificarporbotones"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificar por Opciones"
+        android:layout_marginTop="10dp"
+        android:background="#ffd54f"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:onClick="verificarporopciones"
+        />
+
+</LinearLayout>

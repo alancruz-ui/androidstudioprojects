@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">lock</string>
+    <string name="app_description"> deberias permitir que MyAplication bloquee la pantalla</string>
+</resources>

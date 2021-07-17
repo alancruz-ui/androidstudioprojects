@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#757575"
+        android:visibility="visible"
+        tools:context=".MainActivity"
+        tools:visibility="visible">
+
+
+        <Button
+            android:id="@+id/tabular"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+          android:background="@drawable/botonredondo"
+            android:backgroundTint="@color/botonesmasmenos"
+            android:onClick="tabular"
+            android:text="generar tabla"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.134" />
+
+        <Button
+            android:id="@+id/nuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="limpiar"
+            android:text="nuevo"
+            android:background="@color/botonnuevo"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.897"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.135" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Escriba el numero de la tabla a desplegar"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.609"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046" />
+
+        <Button
+            android:id="@+id/mas"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/botonredondo"
+            android:onClick="funcionmas"
+            android:text="+"
+            android:textSize="30sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.786"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.312"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/menos"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/botonredondo"
+            android:onClick="funcionmenos"
+            android:paddingTop="6dp"
+            android:text="-"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.786"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.383" />
+
+        <TextView
+            android:id="@+id/tabla"
+            android:layout_width="186dp"
+            android:layout_height="636dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botonredondo"
+            android:backgroundTint="#bdbdbd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.126"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabular"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/valor"
+            android:layout_width="80dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/botonredondo"
+            android:backgroundTint="@color/botonnuevo"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="valor"
+            android:inputType="number"
+            android:paddingRight="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.136" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

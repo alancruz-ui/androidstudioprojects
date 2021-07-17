@@ -1,0 +1,2 @@
+rootProject.name='DeviceAdminSample'
+include ':app'

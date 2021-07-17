@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">754E3.3Tabla de multiplicar</string>
+    <string name="opcionAcerca">Acerca de..</string>
+    <string-array name="Acercade">
+        <item>Datos Generales de la Aplicacion</item>
+        <item></item>
+        <item>Alumno: Alan Francisco Cruz de la Cruz</item>
+        <item>Materia: programacion de dispositivos moviles para android</item>
+        <item>Grupo: S7B</item>
+        <item>Periodo: enero-junio 2020</item>
+        <item>Profesor: Octavio Rios</item>
+        <item></item>
+
+    </string-array>
+</resources>

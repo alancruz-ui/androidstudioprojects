@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/opColorCeleste"
+    android:title="celeste"
+    android:icon="@drawable/puntoceleste"
+    app:showAsAction="always"
+    ></item>
+    <item
+        android:id="@+id/opColornaranja"
+        android:title="naranja"
+        android:icon="@drawable/puntonaranja"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:id="@+id/opColorverde"
+        android:title="verde"
+        android:icon="@drawable/puntoverde"
+        app:showAsAction="always"
+        ></item>
+</menu>

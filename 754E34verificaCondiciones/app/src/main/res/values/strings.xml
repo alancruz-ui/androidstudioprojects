@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">754-E3.4verificaCondiciones</string>
+
+    <string-array name="String_array_mesajes">
+        <item>¿Esta de acuerdo con los terminos esstablecidos?</item>
+        <item>La renta del departamento tiene un costo de 6.000 pesos mensuales</item>
+        <item>¿Esta de acuerdo con la forma actual de gobernr?</item>
+        <item>El credito que le ofrecemos tiene una taza actual de 15.6%</item>
+        <item>El salario que le ofrecemos es de 25 mil pesos semanales</item>
+        <item>¿Decide continuar con este curso?</item>
+        <item>¿Aceptar continuar en un curso de investigacion?</item>
+        <item>El trabajo que se le ofrece implica viajar continuemente</item>
+        <item>Tenemos una plaza pero tendria que radicar en paris</item>
+        <item>Para aspirar a esta plaza se requiere tener conocimiento de el 90% de ingles</item>
+    </string-array>
+
+    <string-array name="Acercade">
+        <item>Datos Generales de la Aplicacion</item>
+        <item></item>
+        <item>Ejercicio 3.4 verificapor opciones</item>
+        <item>Alumno: Alan Francisco Cruz de la Cruz</item>
+        <item>Materia: programacion de dispositivos moviles para android</item>
+        <item>Grupo: S7B</item>
+        <item>Periodo: enero-junio 2020</item>
+        <item>Profesor: Octavio Rios</item>
+        <item></item>
+
+    </string-array>
+
+</resources>
